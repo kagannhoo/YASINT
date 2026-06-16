@@ -29,7 +29,7 @@ async def check_tools():
             results["tools"][name] = {"installed": False, "version": None}
 
     # Python paketleri (hafif import)
-    packages = ["httpx", "dns", "bs4", "reportlab", "celery", "redis", "PIL"]
+    packages = ["httpx", "anthropic", "dns", "bs4", "reportlab", "celery", "redis", "PIL"]
     for pkg in packages:
         try:
             __import__(pkg)

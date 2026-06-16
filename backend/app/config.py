@@ -5,6 +5,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     database_url: str = "postgresql://postgres:password@localhost:5432/osint_db"
     redis_url: str = "redis://localhost:6379/0"
+    anthropic_api_key: str = ""
     nmap_path: str = "nmap"
     nmap_top_ports: int = 100
     port_scan_enabled: bool = True

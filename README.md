@@ -12,6 +12,7 @@
 - **Veri İhlali** — XposedOrNot + emailrep.io (ücretsiz, API anahtarı yok)
 - **Domain / Paste / Dork** — crt.sh, GitHub, DuckDuckGo
 - **Kimlik Dosyası** — Tüm bulguların birleşik özeti
+- **AI Profil** — Claude ile detaylı özet (opsiyonel; anahtar sadece yerel `.env` dosyasında)
 - **Canlı Güncelleme** — WebSocket ile modül durumu
 - **PDF/JSON Rapor** — İndirilebilir analiz raporları
 
@@ -41,12 +42,15 @@ docker-compose up -d --build
 ```env
 DATABASE_URL=postgresql://postgres:password@localhost:5432/osint_db
 REDIS_URL=redis://localhost:6379/0
+ANTHROPIC_API_KEY=          # opsiyonel — AI profil özeti için (repoya yazmayın)
 NMAP_PATH=nmap
 SECRET_KEY=your-secret-key
 ALLOWED_ORIGINS=http://localhost:3000
 ```
 
-Ücretli API anahtarı gerekmez. Tüm ihlal ve itibar kontrolleri ücretsiz kaynaklarla çalışır.
+`.env` dosyası git'e dahil değildir; API anahtarlarını yalnızca kendi makinenizdeki `.env` içine koyun.
+
+İhlal kontrolleri (XposedOrNot, emailrep.io) ücretsizdir ve anahtar gerektirmez.
 
 ## Test
 
