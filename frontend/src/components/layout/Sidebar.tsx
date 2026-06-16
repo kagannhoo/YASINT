@@ -67,6 +67,14 @@ export function Sidebar() {
           Kaynakça
         </a>
         <a
+          href="https://github.com/kagannhoo/YASINT/blob/master/AUTHORS.md"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-text-secondary hover:text-text-primary block"
+        >
+          Yazarlar &amp; atıf
+        </a>
+        <a
           href="https://github.com/kagannhoo"
           target="_blank"
           rel="noopener noreferrer"

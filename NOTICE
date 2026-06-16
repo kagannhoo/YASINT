@@ -1,0 +1,20 @@
+YASINT
+Copyright (c) 2026 kagannhoo
+
+This project is licensed under the MIT License. See LICENSE for the full text.
+
+---
+
+AI-Assisted Development Notice
+
+Portions of this software's architecture, source code, and documentation were
+created with the assistance of:
+
+  Cursor IDE — https://cursor.com
+  Anthropic Claude (via Cursor Agent)
+
+The human project owner (kagannhoo) directed, reviewed, approved, and maintains
+all published materials. AI-generated suggestions do not constitute separate
+authorship or copyright ownership.
+
+For third-party OSINT tools, APIs, and libraries, see KAYNAKCA.md.

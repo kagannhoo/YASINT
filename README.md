@@ -65,10 +65,13 @@ pytest tests/ -v
 
 Bu platform yalnızca yasal ve etik amaçlarla, açık kaynaklardan elde edilebilen bilgilerin analizi için tasarlanmıştır. KVKK, GDPR ve yerel yasalara uygun kullanım kullanıcının sorumluluğundadır.
 
+**Geliştirme atıfı:** Proje [kagannhoo](https://github.com/kagannhoo) tarafından yönetilir; kod ve dokümantasyon [Cursor](https://cursor.com) üzerindeki Claude (Anthropic) AI asistanı desteğiyle üretilmiş ve insan denetiminden geçirilmiştir. Ayrıntılar: [AUTHORS.md](./AUTHORS.md) · [NOTICE](./NOTICE)
+
 ## Kaynakça ve yazar
 
 - [KAYNAKCA.md](./KAYNAKCA.md) — kullanılan tüm araçlar, API'ler ve kütüphaneler
-- [AUTHORS.md](./AUTHORS.md) — proje geliştiricisi
+- [AUTHORS.md](./AUTHORS.md) — geliştirici ve AI destekli geliştirme atıfı
+- [NOTICE](./NOTICE) — telif ve AI kullanım bildirimi
 
 ## Lisans
 

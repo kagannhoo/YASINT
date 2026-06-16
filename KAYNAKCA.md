@@ -8,7 +8,8 @@ YASINT, aşağıdaki açık kaynak projeler, kütüphaneler ve harici servisler 
 |--------|----------|----------|
 | **YASINT** | Yet Another Source Intelligence Tool — pasif OSINT kişi analiz platformu | https://github.com/kagannhoo/YASINT |
 
-**Geliştirici:** [kagannhoo](https://github.com/kagannhoo)
+**Geliştirici:** [kagannhoo](https://github.com/kagannhoo)  
+**AI destekli geliştirme:** [Cursor](https://cursor.com) — Anthropic Claude
 
 ---
 
@@ -97,13 +98,24 @@ GitHub · Reddit · GitLab · Dev.to · Twitch · Steam · Telegram · SoundClou
 
 ---
 
+## Geliştirme araçları (AI destekli)
+
+| Araç | Kullanım alanı | Bağlantı |
+|------|----------------|----------|
+| **Cursor IDE** | AI destekli kod editörü ve agent ortamı | https://cursor.com |
+| **Anthropic Claude** | Kod üretimi, mimari ve dokümantasyon asistanı | https://www.anthropic.com |
+
+Detaylı yasal atıf için [AUTHORS.md](./AUTHORS.md) ve [NOTICE](./NOTICE) dosyalarına bakın.
+
+---
+
 ## Atıf notu
 
 Bu projeyi akademik veya teknik bir çalışmada kullanıyorsanız, aşağıdaki biçim önerilir:
 
 ```
 kagannhoo. (2026). YASINT — Yet Another Source Intelligence Tool [Computer software].
-https://github.com/kagannhoo/YASINT
+AI-assisted development with Cursor (Anthropic Claude). https://github.com/kagannhoo/YASINT
 ```
 
 Harici servislerin kullanım koşullarına ve rate limitlerine uyun. YASINT yalnızca pasif, açık kaynak istihbarat amaçlı tasarlanmıştır.
