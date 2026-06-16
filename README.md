@@ -2,6 +2,8 @@
 
 **Y**et **A**nother **S**ource **I**ntelligence **T**ool — pasif OSINT tabanlı kişi analiz platformu. Kullanıcı elindeki verileri (fotoğraf, kullanıcı adı, IP, e-posta, telefon) sisteme girer; sistem bu verileri otomatik analiz eder ve dijital ayak izi raporu üretir.
 
+**Geliştirici:** [kagannhoo](https://github.com/kagannhoo) · **Kaynakça:** [KAYNAKCA.md](./KAYNAKCA.md)
+
 ## Özellikler
 
 - **EXIF Analizi** — GPS, cihaz bilgisi, çekim zamanı
@@ -63,6 +65,11 @@ pytest tests/ -v
 
 Bu platform yalnızca yasal ve etik amaçlarla, açık kaynaklardan elde edilebilen bilgilerin analizi için tasarlanmıştır. KVKK, GDPR ve yerel yasalara uygun kullanım kullanıcının sorumluluğundadır.
 
+## Kaynakça ve yazar
+
+- [KAYNAKCA.md](./KAYNAKCA.md) — kullanılan tüm araçlar, API'ler ve kütüphaneler
+- [AUTHORS.md](./AUTHORS.md) — proje geliştiricisi
+
 ## Lisans
 
-MIT
+[MIT](./LICENSE) — Copyright (c) 2026 [kagannhoo](https://github.com/kagannhoo)

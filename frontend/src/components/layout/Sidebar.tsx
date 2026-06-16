@@ -56,14 +56,24 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="p-4 border-t border-border">
+      <div className="p-4 border-t border-border space-y-1">
         <p className="text-xs text-text-secondary">v1.0.0</p>
-        <Link
-          href="#"
-          className="text-xs text-accent hover:underline mt-1 block"
+        <a
+          href="https://github.com/kagannhoo/YASINT/blob/master/KAYNAKCA.md"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-accent hover:underline block"
         >
-          Yasal Uyarı
-        </Link>
+          Kaynakça
+        </a>
+        <a
+          href="https://github.com/kagannhoo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-text-secondary hover:text-text-primary block"
+        >
+          @kagannhoo
+        </a>
       </div>
     </aside>
   );
