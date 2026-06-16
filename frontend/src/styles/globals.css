@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --bg-primary: #0a0b0d;
+  --bg-secondary: #111318;
+  --bg-tertiary: #1a1d24;
+  --border: #2a2d35;
+  --accent: #00d4aa;
+  --accent-dim: #00d4aa20;
+  --text-primary: #e8eaf0;
+  --text-secondary: #8b8f9e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --success: #10b981;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .card {
+    @apply bg-bg-secondary border border-border rounded-card p-5;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-bg-primary font-semibold px-6 py-3 rounded-lg
+           hover:shadow-[0_0_20px_rgba(0,212,170,0.3)] transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full bg-bg-tertiary border border-border rounded-lg px-4 py-2.5
+           text-text-primary placeholder:text-text-secondary
+           focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent;
+  }
+
+  .badge-success {
+    @apply bg-success/20 text-success px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-warning {
+    @apply bg-warning/20 text-warning px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-danger {
+    @apply bg-danger/20 text-danger px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-gray {
+    @apply bg-text-secondary/20 text-text-secondary px-2 py-0.5 rounded text-xs font-medium;
+  }
+}
+
+/* Leaflet dark theme overrides */
+.leaflet-container {
+  background: var(--bg-tertiary) !important;
+  border-radius: 12px;
+}
+
+/* React Flow */
+.react-flow__node {
+  font-size: 12px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
